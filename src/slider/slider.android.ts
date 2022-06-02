@@ -79,6 +79,11 @@ export class Slider extends View {
         result.setLabelBehavior(2); // com.google.android.material.slider.LabelFormatter.LABEL_GONE
         result.setValueFrom(DEFAULT_MIN);
         result.setValueTo(DEFAULT_MAX);
+        // JW_CHANGE
+        result.setThumbRadius(15);
+        result.setHaloRadius(50);
+        result.setTrackHeight(4);
+        // ---
         return result;
     }
     initNativeView() {

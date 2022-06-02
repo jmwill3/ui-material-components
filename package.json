@@ -55,7 +55,9 @@
     "readmeFilename": "README.md",
     "dependencies": {
         "@nativescript-community/plugin-seed-tools": "file:tools",
-        "@nativescript-community/text": "^1.5.3"
+        "@nativescript-community/text": "^1.5.3",
+        "react-nativescript": "^3.0.0-beta.3",
+        "svelte-native": "^1.0.4"
     },
     "commitlint": {
         "extends": [
@@ -83,5 +85,8 @@
         "@nativescript-community/plugin-seed-tools": {
             "injected": true
         }
+    },
+    "devDependencies": {
+        "ts-patch": "^2.0.1"
     }
 }
